@@ -484,6 +484,7 @@ GameObject:
   - component: {fileID: 384024275}
   - component: {fileID: 384024274}
   - component: {fileID: 384024273}
+  - component: {fileID: 384024276}
   m_Layer: 0
   m_Name: Kabe
   m_TagString: Untagged
@@ -563,6 +564,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 384024271}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &384024276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384024271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d3f05e0da3604760a50a0df0d76feea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &449127857
 GameObject:
   m_ObjectHideFlags: 0
@@ -778,7 +791,6 @@ GameObject:
   - component: {fileID: 914451102}
   - component: {fileID: 914451101}
   - component: {fileID: 914451100}
-  - component: {fileID: 914451103}
   m_Layer: 0
   m_Name: Kabe
   m_TagString: Untagged
@@ -858,18 +870,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 914451098}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &914451103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 914451098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d3f05e0da3604760a50a0df0d76feea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1280256288
 GameObject:
   m_ObjectHideFlags: 0
